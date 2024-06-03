@@ -1,0 +1,35 @@
+#what-we-do img:hover {
+    opacity: 0.5;
+    
+}
+
+#our-project li:hover {
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+}
+#what-we-do {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-height: 500px; /* Set the desired max height */
+    width: auto;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Optional: adjust the color for visibility */
+    border-radius: 50%;
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+    width: 5%;
+}
+
+#read-more {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+}
